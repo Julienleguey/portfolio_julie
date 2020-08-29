@@ -1,0 +1,57 @@
+@import "../variables";
+
+.btn {
+  cursor: pointer;
+  border-radius: $border-radius-sm;
+  border-style: solid;
+  border-width: $border-w-md;
+  transition: all 200ms ease;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.small {
+    padding: 0.5rem 1rem;
+  }
+
+  &.large {
+    padding: 1rem 2rem;
+  }
+
+  &.full-width {
+    width: 100%;
+  }
+
+  &.outlined {
+    background-color: transparent;
+  }
+  &.outlined:hover,
+  &.outlined:active {
+    background-color: currentcolor;
+  }
+  &:disabled {
+    background-color: $light;
+    border-color: $light;
+    p {
+      color: $white !important;
+    }
+  }
+}
+
+.btn-link {
+  cursor: pointer;
+  background-color: transparent;
+  color: $dark;
+  line-height: $u4;
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  // &:hover {
+  //   text-decoration: underline;
+  // }
+}

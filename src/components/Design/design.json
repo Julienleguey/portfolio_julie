@@ -1,0 +1,118 @@
+[
+  {
+    "project_folder": "nestor",
+    "project_name": "nestor",
+    "project_subcaption": "luminaire",
+    "project_picture": "NESTOR04.jpg",
+    "project_occasion": "concours gil luminaires - juin 2018",
+    "project_award": "prix 'esthétique et expression'",
+    "project_short_description": "",
+    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "carousels": [],
+    "pictures": [
+      "NESTOR05.jpg",
+      "NESTOR06.jpg",
+      "NESTOR08.jpg",
+      "NESTOR07.jpg",
+      "NESTOR03.jpg",
+      "NESTOR02.jpg",
+      "NESTOR01.jpg"
+    ]
+  },
+  {
+    "project_folder": "triptyque",
+    "project_name": "triptyque",
+    "project_subcaption": "assise contemplative",
+    "project_picture": "DETAIL2.jpg",
+    "project_occasion": "projet de diplôme - juin 2020",
+    "project_award": "",
+    "project_short_description": "",
+    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "carousels": [
+      {
+        "name": "Module 1",
+        "pictures": [
+          "MODULEB1ProfilA.jpg",
+          "MODULEB1ProfilB.jpg",
+          "MODULEB1ProfilC.jpg",
+          "MODULEB1ProfilD.jpg"
+        ]
+      },
+
+      {
+        "name": "Module 2",
+        "pictures": [
+          "MODULEB2ProfilA.jpg",
+          "MODULEB2ProfilB.jpg",
+          "MODULEB2ProfilC.jpg",
+          "MODULEB2ProfilD.jpg"
+        ]
+      },
+
+      {
+        "name": "Module 3",
+        "pictures": [
+          "MODULEB3ProfilA.jpg",
+          "MODULEB3ProfilB.jpg",
+          "MODULEB3ProfilC.jpg",
+          "MODULEB3ProfilD.jpg"
+        ]
+      }
+    ],
+    "pictures": [
+      "VUEDOS.jpg",
+      "VUEFACE.jpg",
+      "RENDU01.jpg",
+      "RENDU03.jpg",
+      "RENDU06.jpg",
+      "TRICROQUIS01.jpg",
+      "TRICROQUIS02.jpg"
+    ]
+  },
+  {
+    "project_folder": "idylle",
+    "project_name": "idylle",
+    "project_subcaption": "vase",
+    "project_picture": "IMG30371.jpg",
+    "project_occasion": "projet étudiant - mai 2017",
+    "project_award": "",
+    "project_short_description": "",
+    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "carousels": [],
+    "pictures": [
+      "IMG30451.jpg",
+      "IMG30401.jpg",
+      "IMG30411.jpg",
+      "CROQUIS01.jpg",
+      "CROQUIS02.jpg",
+      "CROQUIS03.jpg",
+      "CROQUIS04.jpg"
+    ]
+  },
+  {
+    "project_folder": "email",
+    "project_name": "email",
+    "project_subcaption": "vase",
+    "project_picture": "VASE01.jpg",
+    "project_occasion": "projet étudiant - mars 2019",
+    "project_award": "en collaboration avec la maison de l’email",
+    "project_short_description": "",
+    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "carousels": [],
+    "pictures": [
+      "IMG64311.jpg",
+      "IMG64321.jpg",
+      "VASE01DETAIL.jpg",
+      "VASE04.jpg",
+      "VASE03.jpg",
+      "VASE02.jpg",
+      "CROQUIS04.jpg",
+      "CROQUIS02.jpg",
+      "CROQUIS07.jpg",
+      "CROQUIS06.jpg",
+      "CROQUIS05.jpg",
+      "CROQUIS03.jpg",
+      "CROQUIS01.jpg"
+    ]
+  }
+]

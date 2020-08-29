@@ -1,0 +1,197 @@
+[
+  {
+    "project_folder": "honorat",
+    "project_name": "église saint-honorât",
+    "project_subcaption": "arles, france",
+    "project_picture": "cadastre.png",
+    "project_occasion": "projet de diplôme - juin 2020",
+    "project_award": "",
+    "project_short_description": "Proposition de réhabilitation de l’Église Saint-Honorât en bar à vins et espace d’exposition de photographies, dans le cadre des Rencontres d’Arles.",
+    "intentions": [
+      "Redévelopper l’artisanat dans la ville d’Arles, en liant histoire et modernité. Agir dans la continuité de la ville, de ses vestiges et des rencontres d’Arles. S’inspirer de la ville pour créer un projet en lien avec son environnement. Présenter un projet autour de la typologie du bâtiment, afin de respecter et mettre en lumière son histoire."
+    ],
+    "carousels": [
+      {
+        "pictures": [
+          {
+            "name": "façade nord",
+            "file": "FACADE01.jpg"
+          },
+          {
+            "name": "façade ouest",
+            "file": "FACADE02.jpg"
+          },
+          {
+            "name": "façade sud",
+            "file": "FACADE03.jpg"
+          },
+          {
+            "name": "façade est",
+            "file": "FACADE04.jpg"
+          }
+        ]
+      },
+      {
+        "pictures": [
+          {
+            "name": "plan existant",
+            "file": "PLANEXISTANT.jpg"
+          },
+          {
+            "name": "plan rdc",
+            "file": "PLANRDC.jpg"
+          },
+          {
+            "name": "plan r+1",
+            "file": "PLANR1.jpg"
+          },
+          {
+            "name": "plan r+2",
+            "file": "PLANR2.jpg"
+          }
+        ]
+      },
+      {
+        "pictures": [
+          {
+            "name": "coupe aa’",
+            "file": "COUPEAA.jpg"
+          },
+          {
+            "name": "coupe bb’",
+            "file": "COUPEBB.jpg"
+          },
+          {
+            "name": "coupe cc’",
+            "file": "COUPECC.jpg"
+          },
+          {
+            "name": "coupe dd’",
+            "file": "COUPEDD.jpg"
+          },
+          {
+            "name": "coupe ee’",
+            "file": "COUPEEE.jpg"
+          }
+        ]
+      },
+      {
+        "pictures": [
+          {
+            "name": "accueil",
+            "file": "ACCUEIL.jpg"
+          },
+          {
+            "name": "salle principale",
+            "file": "SALLEPRINCIPALE03.jpg"
+          },
+          {
+            "name": "détail de la crypte inondée",
+            "file": "DETAILCRYPTE.jpg"
+          },
+          {
+            "name": "salle principale",
+            "file": "SALLEPRINCIPALE01.jpg"
+          },
+          {
+            "name": "détail de la passerelle",
+            "file": "DETAILESCALIER.jpg"
+          },
+          {
+            "name": "salle principale",
+            "file": "SALLEPRINCIPALE02.jpg"
+          },
+          {
+            "name": "salle d’exposition",
+            "file": "SALLEEXPO01.jpg"
+          },
+          {
+            "name": "salle principale",
+            "file": "SOUSPASSERELLE01.jpg"
+          },
+          {
+            "name": "salle principale",
+            "file": "SOUSPASSERELLE02.jpg"
+          },
+          {
+            "name": "passerelle d’exposition",
+            "file": "PASSERELLE.jpg"
+          },
+          {
+            "name": "espace bar",
+            "file": "SALLEPRINCIPALE04.jpg"
+          },
+          {
+            "name": "espace bar",
+            "file": "BAR.jpg"
+          },
+          {
+            "name": "Salon des rencontres",
+            "file": "SALON.jpg"
+          },
+          {
+            "name": "toilettes",
+            "file": "TOILETTES.jpg"
+          },
+          {
+            "name": "Espace de dégustation extérieur",
+            "file": "EXTERIEUR02.jpg"
+          },
+          {
+            "name": "Espace d’exposition extérieur",
+            "file": "EXTERIEUR01.jpg"
+          },
+          {
+            "name": "Vue de nuit",
+            "file": "EXTERIEUR04.jpg"
+          },
+          {
+            "name": "Vue de nuit",
+            "file": "EXTERIEUR03.jpg"
+          },
+          {
+            "name": "Vue de nuit",
+            "file": "SALON02.jpg"
+          }
+        ]
+      },
+      {
+        "name": "concept",
+        "pictures": [
+          "concept.jpg",
+          "analyseeglises.jpg",
+          "circulations.jpg",
+          "axo11.jpg",
+          "axo21.jpg",
+          "axo31.jpg",
+          "axo41.jpg"
+        ]
+      }
+    ],
+    "pictures": []
+  },
+  {
+    "project_folder": "daumesnil",
+    "project_name": "daumesnil",
+    "project_subcaption": "paris, france",
+    "project_picture": "cadastre.png",
+    "project_occasion": "projet de rénovation - en cours de construction.",
+    "project_award": "",
+    "project_short_description": "Rénovation d’un appartement parisien, surface 30,21 m2.",
+    "intentions": [],
+    "carousels": [],
+    "pictures": []
+  },
+  {
+    "project_folder": "egly",
+    "project_name": "ruelle",
+    "project_subcaption": "egly, france",
+    "project_picture": "cadastre.png",
+    "project_occasion": "projet de rénovation - en cours de construction",
+    "project_award": "",
+    "project_short_description": "Rénovation d’une maison familiale et aménagement des combles, surface 175,96 m2.",
+    "intentions": [],
+    "carousels": [],
+    "pictures": []
+  }
+]

@@ -1,0 +1,66 @@
+@import "./variables";
+
+body {
+  font-family: "Alte Haas Grotesk", sans-serif;
+  color: $dark;
+  font-size: 1rem;
+  font-weight: 400;
+  background: #fff;
+  display: flex;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
+select {
+  outline: none;
+}
+
+/* ::selection {
+  background: #f26c13;
+} */
+
+#root {
+  flex: 1;
+}
+
+#full-app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: $lighter;
+}
+
+#content-container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+// je ne savais pas où mettre ça, mais c'est pratique ces trucs
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.pe-none {
+  pointer-events: none;
+}
+
+.pe-auto {
+  pointer-events: auto;
+}
+
+.letter-spacing-title {
+  letter-spacing: 0.25rem;
+}

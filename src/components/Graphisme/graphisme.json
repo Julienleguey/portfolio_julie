@@ -1,0 +1,97 @@
+[
+  {
+    "project_folder": "la_crypte",
+    "project_name": "la crypte",
+    "project_subcaption": "identité visuelle",
+    "project_picture": "LACRYPTELOGO3D02.jpg",
+    "project_occasion": "projet de diplôme - juin 2020",
+    "project_award": "",
+    "project_short_description": "Proposition de réhabilitation de l’Église Saint-Honorât en bar à vins et espace d’exposition de photographies, dans le cadre des Rencontres d’Arles.",
+    "intentions": ["blobloblo"],
+    "carousels": [
+      {
+        "name": "papeterie",
+        "pictures": [
+          "LACRYPTEMENU.jpg",
+          "LACRYPTETAMPON.jpg",
+          "CARTEDEVISITE.jpg"
+        ]
+      },
+      {
+        "name": "signalétique",
+        "pictures": [
+          "fascicule.jpg",
+          "fasciculebatiment.jpg",
+          "Signaletique.jpg",
+          "INFOSPHOTO.jpg"
+        ]
+      },
+      {
+        "name": "uniforme",
+        "pictures": ["UNIFORME01.jpg", "UNIFORME02.jpg", "UNIFORME03.jpg"]
+      },
+      {
+        "name": "numérique",
+        "pictures": [
+          "LACRYPTESITE01.jpg",
+          "LACRYPTESITE02.jpg",
+          "LACRYPTESITE03.jpg",
+          "LACRYPTESITE04.jpg",
+          "LACRYPTESITE05.jpg"
+        ]
+      }
+    ],
+    "pictures": ["LOGOLACRYPTE.jpg", "LACRYPTELOGO3D01.jpg"]
+  },
+  {
+    "project_folder": "collectif_local",
+    "project_name": "collectif local",
+    "project_subcaption": "identité visuelle",
+    "project_picture": "boiteallumettes.jpg",
+    "project_occasion": "projet de diplôme - juin 2020",
+    "project_award": "prix 'esthétique et expression'",
+    "project_short_description": "Création d’un collectif autour du savoir faire artisanal et des matériaux, pour une nouvelle façon de construire, plus respectueuse de l’homme et de l’environnement.",
+    "intentions": ["blobloblo"],
+    "carousels": [],
+    "pictures": [
+      "LOGOCOLLECTIF.jpg",
+      "LACRYPTECROQUIS01.jpg",
+      "Collectionverres.jpg"
+    ]
+  },
+  {
+    "project_folder": "triptyque",
+    "project_name": "triptyque",
+    "project_subcaption": "identité visuelle",
+    "project_picture": "MODULESIGNE.jpg",
+    "project_occasion": "projet de diplôme - juin 2020",
+    "project_award": "prix 'esthétique et expression'",
+    "project_short_description": "Création d’une assise contemplative et de son identité visuelle",
+    "intentions": ["blobloblo"],
+    "carousels": [
+      {
+        "name": "papeterie",
+        "pictures": [
+          "TRIAffiches.jpg",
+          "TRICARTESDEVISITE02.jpg",
+          "TRICARTESDEVISITE01.jpg",
+          "TRIMagazine.jpg",
+          "TRIENVELOPPES.jpg",
+          "TRIenvbeige.jpg",
+          "TRIenverose.jpg",
+          "TRIEtiquettesblanc.jpg",
+          "TRIPapierenvoi.jpg"
+        ]
+      },
+      {
+        "name": "numérique",
+        "pictures": [
+          "TRISiteaccueil.jpg",
+          "TRISiteproduit.jpg",
+          "TRISiteprojets.jpg"
+        ]
+      }
+    ],
+    "pictures": ["TRIPTYQUELOGO.jpg"]
+  }
+]

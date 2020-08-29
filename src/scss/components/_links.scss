@@ -1,0 +1,11 @@
+@import "../variables";
+
+.link {
+  color: $dark;
+  text-decoration: none;
+  line-height: $u4;
+
+  // &:hover {
+  //   text-decoration: underline;
+  // }
+}

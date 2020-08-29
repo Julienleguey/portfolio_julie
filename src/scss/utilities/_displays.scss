@@ -1,0 +1,14 @@
+@import "../functions";
+
+$displays: (
+  "flex": flex,
+  "none": none,
+  "inline": inline
+);
+
+$directions: (
+  "col": column,
+  "row": row
+);
+
+@include setClassesForBreakpoints($breakpoints, $displays, "d", "display");

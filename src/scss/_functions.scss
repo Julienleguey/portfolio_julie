@@ -1,0 +1,32 @@
+@import "variables";
+
+@mixin media($brkpt-value, $property, $value-value) {
+  @media (min-width: $brkpt-value) {
+    #{$property}: $value-value;
+  }
+}
+
+@mixin setClassesForBreakpoints($brkpts, $values, $base, $property) {
+  @each $brkpt-key, $brkpt-value in $brkpts {
+    @warn "now property is #{$property}";
+    @each $value-key, $value-value in $values {
+      @if $brkpt-key == "default" {
+        .#{$base}-#{$value-key} {
+          #{$property}: $value-value;
+        }
+      } @else {
+        .#{$base}-#{$brkpt-key}-#{$value-key} {
+          @include media($brkpt-value, $property, $value-value);
+        }
+      }
+    }
+  }
+}
+
+// see https://stackoverflow.com/questions/10262082/css-media-queries-and-important
+// someone wrote :  I realized that media queries have to be at the end of style sheets (even if you're using/importing multiple files on your workflow).
+// pour toutes les classes qui se passent les unes par-dessus les autres (d-flex d-md-none d-lg-flex, par exemple), il faut créer une seule media-query et mettre toutes les classes concernées dedans
+// l'erreur serait de créer une classe et de lui donner sa propre media-query car des media-queries se retrouveraient avant d'autres alors qu'elles devraient être après
+// je sais pas si je suis clair, j'ai la flemme d'écrire un exemple et tu vas me haïr mais démerde-toi pour comprendre (hahaha)
+
+// de plus j'utilise une fonction pour créer les breakpoints lorsque j'en ai besoin

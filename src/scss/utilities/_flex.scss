@@ -1,0 +1,65 @@
+@import "../functions";
+
+/********************************
+flex rows and columns directions
+********************************/
+$directions: (
+  "col": column,
+  "row": row
+);
+
+@include setClassesForBreakpoints(
+  $breakpoints,
+  $directions,
+  "f",
+  "flex-direction"
+);
+
+/********************
+justify content
+********************/
+$justifies: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "sb": space-between,
+  "sa": space-around,
+  "se": space-evenly
+);
+
+@include setClassesForBreakpoints(
+  $breakpoints,
+  $justifies,
+  "jc",
+  "justify-content"
+);
+
+/********************
+align items
+********************/
+$aligns: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "stretch": stretch
+);
+
+@include setClassesForBreakpoints($breakpoints, $aligns, "ai", "align-items");
+
+/********************
+flex wrap
+********************/
+$wraps: (
+  "wrap": wrap,
+  "nowrap": nowrap,
+  "wrap-reverse": wrap-reverse
+);
+
+@include setClassesForBreakpoints($breakpoints, $wraps, "f-w", "flex-wrap");
+
+/************************
+flex grow (not finished)
+************************/
+.flex-1 {
+  flex: 1;
+}

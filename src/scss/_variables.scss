@@ -1,0 +1,135 @@
+/******************
+COLORS
+******************/
+// just for reference start
+$gray-100: #fafaf6 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+// just for reference end
+
+// these are the colors used throughout the app
+// $primary: #5352ed;
+// $secondary: #eced52;
+$primary: #eced52;
+$secondary: #5352ed;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$white: #fff !default;
+$lighter: $gray-100 !default;
+$light: $gray-300 !default;
+$gray: $gray-500;
+$dark: $gray-800 !default;
+$black: #000 !default;
+
+// colors list to run loop on
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "white": $white,
+  "lighter": $lighter,
+  "light": $light,
+  "gray": $gray,
+  "dark": $dark,
+  "black": $black,
+  "transparent": transparent
+);
+
+$breakpoints: (
+  default: 0,
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$u0: 0;
+$u1: 0.25rem;
+$u2: 0.5rem;
+$u3: 1rem;
+$u4: 1.5rem;
+$u5: 2rem;
+$u6: 3rem;
+$u7: 4rem;
+$u8: 5rem;
+$u9: 6rem;
+$u10: 7rem;
+$u11: 8rem;
+$u12: 9rem;
+$u13: 10rem;
+$u14: 11rem;
+$u15: 12rem;
+$u16: 13rem;
+$u17: 14rem;
+$u18: 15rem;
+$u19: 16rem;
+$u20: 17rem;
+
+$units: (
+  0: $u0,
+  1: $u1,
+  2: $u2,
+  3: $u3,
+  4: $u4,
+  5: $u5,
+  6: $u6,
+  7: $u7,
+  8: $u8,
+  9: $u9,
+  10: $u10,
+  11: $u11,
+  12: $u12,
+  13: $u13,
+  14: $u14,
+  15: $u15,
+  16: $u16,
+  17: $u17,
+  18: $u18,
+  19: $u19,
+  20: $u20,
+  auto: auto
+);
+
+$font-lighter: 100;
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 500;
+$font-bolder: 700;
+
+$border-w-sm: 1px; // default value for the border-width
+$border-w-md: 2px;
+$border-w-lg: 4px;
+
+$border-radius-none: 0;
+$border-radius-sm: 2px; // not used yet
+$border-radius-md: 0.25rem; //default value for the border radius
+$border-radius-lg: 0.5rem; // not used yet
+
+$round-border: 50%;
+
+$font-family-base: "Alte Haas Grotesk", "HK Grotesk", "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;

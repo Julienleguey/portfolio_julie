@@ -1,0 +1,13 @@
+.icon-container {
+  .icon-plain {
+    display: none;
+  }
+
+  &:hover .icon-empty {
+    display: none;
+  }
+
+  &:hover .icon-plain {
+    display: block;
+  }
+}

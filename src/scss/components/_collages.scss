@@ -1,0 +1,19 @@
+@import "../variables";
+
+.collage-container {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  cursor: pointer;
+  background-color: $light;
+}
+
+.collage-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,84 @@
+@import "../variables";
+
+//todo à refacto en utilisant setClassesForBreakpoints + certainement une méthode complémentaire
+
+$sides: ("all", "x", "y", "t", "r", "b", "l");
+
+@mixin media($type, $side, $breakpoint, $unit) {
+  @media (min-width: $breakpoint) {
+    @if $side == "all" {
+      #{$type}: $unit;
+    } @else if $side == "x" {
+      #{$type}-right: $unit;
+      #{$type}-left: $unit;
+    } @else if $side == "y" {
+      #{$type}-top: $unit;
+      #{$type}-bottom: $unit;
+    } @else if $side == "t" {
+      #{$type}-top: $unit;
+    } @else if $side == "r" {
+      #{$type}-right: $unit;
+    } @else if $side == "b" {
+      #{$type}-bottom: $unit;
+    } @else if $side == "l" {
+      #{$type}-left: $unit;
+    }
+  }
+}
+
+@each $breakpoint-key, $breakpoint-value in $breakpoints {
+  @warn "breakpoints are #{$breakpoints}";
+  @each $unit-key, $unit-value in $units {
+    @each $side in $sides {
+      @if $breakpoint-key == "default" {
+        @if $side == "all" {
+          .m-#{$unit-key} {
+            @include media("margin", $side, $breakpoint-value, $unit-value);
+          }
+        } @else {
+          .m#{$side}-#{$unit-key} {
+            @include media("margin", $side, $breakpoint-value, $unit-value);
+          }
+        }
+      } @else {
+        @if $side == "all" {
+          .m-#{$breakpoint-key}-#{$unit-key} {
+            @include media("margin", $side, $breakpoint-value, $unit-value);
+          }
+        } @else {
+          .m#{$side}-#{$breakpoint-key}-#{$unit-key} {
+            @include media("margin", $side, $breakpoint-value, $unit-value);
+          }
+        }
+      }
+    }
+  }
+}
+
+@each $breakpoint-key, $breakpoint-value in $breakpoints {
+  @each $unit-key, $unit-value in $units {
+    @each $side in $sides {
+      @if $breakpoint-key == "default" {
+        @if $side == "all" {
+          .p-#{$unit-key} {
+            @include media("padding", $side, $breakpoint-value, $unit-value);
+          }
+        } @else {
+          .p#{$side}-#{$unit-key} {
+            @include media("padding", $side, $breakpoint-value, $unit-value);
+          }
+        }
+      } @else {
+        @if $side == "all" {
+          .p-#{$breakpoint-key}-#{$unit-key} {
+            @include media("padding", $side, $breakpoint-value, $unit-value);
+          }
+        } @else {
+          .p#{$side}-#{$breakpoint-key}-#{$unit-key} {
+            @include media("padding", $side, $breakpoint-value, $unit-value);
+          }
+        }
+      }
+    }
+  }
+}

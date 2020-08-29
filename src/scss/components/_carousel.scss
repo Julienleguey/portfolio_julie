@@ -1,0 +1,70 @@
+@import "../variables";
+
+.pictures-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.carousel-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &.left {
+    left: -100%;
+  }
+
+  &.active {
+    left: 0;
+  }
+
+  &.right {
+    left: 100%;
+  }
+
+  &.move-left {
+    transform: translateX(-100%);
+    transition: transform 0.6s ease-in-out;
+  }
+
+  &.move-right {
+    transform: translateX(100%);
+    transition: transform 0.6s ease-in-out;
+  }
+}
+
+.carousel-picture {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.carousel-btn {
+  position: absolute;
+  bottom: 11px;
+  width: 1.5rem;
+  height: 1rem;
+  background-color: $white;
+
+  &.back {
+    left: 0;
+    padding-right: $u2;
+  }
+
+  &.forward {
+    right: 0;
+    padding-left: $u2;
+  }
+}
