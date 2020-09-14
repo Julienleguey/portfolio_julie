@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import classnames from "classnames";
 import ProjectModal from "./ProjectModal";
 
 const Projects = ({ projectsCategory, projects }) => {
@@ -11,54 +10,54 @@ const Projects = ({ projectsCategory, projects }) => {
     setOpenModal(true);
   }
 
-  function displayProjects() {
+  function displayProjectsLg() {
     return projects.map((projectToDisplay, index) => {
-      return displayShortProject(projectToDisplay, index, false);
+      return displayProject(projectToDisplay, index);
     });
   }
 
-  function displayShortProject(projectToDisplay, index, inModal) {
+  function displayProject(projectToDisplay, index) {
     const folder = projectToDisplay.project_folder;
 
     return (
       <div
-        className={classnames("d-flex f-col w-100", inModal ? "mb-3" : "mb-5")}
+        className="project-card"
         key={index}
+        onClick={() => openProjectModal(projectToDisplay)}
       >
-        <div
-          className={classnames("w-100", inModal ? "mb-5" : "mb-1")}
-          onClick={() => openProjectModal(projectToDisplay)}
-        >
+        <div className="w-100 mb-1">
           <img
-            src={require(`../../images/${projectsCategory}/${folder}/${projectToDisplay.project_picture}`)}
+            src={require(`../../images/${projectsCategory}${folder}/${projectToDisplay.project_picture_square}`)}
             alt={projectToDisplay.project_name}
             className="w-100"
           />
         </div>
-        <p
-          style={{ textTransform: "uppercase" }}
-          className="font-weight-bolder font-size-sm"
-        >
-          {projectToDisplay.project_name}
-        </p>
-        <p
-          style={{ textTransform: "uppercase" }}
-          className="font-weight-bolder font-size-sm"
-        >
-          {projectToDisplay.project_subcaption}
-        </p>
+        <div className="project-card-name-container">
+          <p
+            style={{ textTransform: "uppercase", letterSpacing: "2px" }}
+            className="font-weight-bolder font-size-sm mt-auto"
+          >
+            {projectToDisplay.project_name}
+          </p>
+          <p
+            style={{ textTransform: "uppercase", letterSpacing: "2px" }}
+            className="font-weight-bolder font-size-sm"
+          >
+            {projectToDisplay.project_subcaption}
+          </p>
+        </div>
       </div>
     );
   }
 
   return (
     <div className="d-flex f-col w-100 bg-lighter flex-1">
-      <div className="px-3">{displayProjects()}</div>
+      <div className="px-3 project-list">{displayProjectsLg()}</div>
+
       <ProjectModal
         open={openModal}
         close={() => setOpenModal(false)}
         project={project}
-        displayShortProject={displayShortProject}
         projectsCategory={projectsCategory}
       />
     </div>

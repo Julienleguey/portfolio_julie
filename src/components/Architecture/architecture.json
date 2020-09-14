@@ -1,15 +1,18 @@
 [
   {
-    "project_folder": "honorat",
+    "project_folder": "/honorat",
     "project_name": "église saint-honorât",
     "project_subcaption": "arles, france",
-    "project_picture": "cadastre.png",
+    "project_picture_square": "cadastre.png",
+    "project_picture": "cadastre.jpg",
     "project_occasion": "projet de diplôme - juin 2020",
     "project_award": "",
-    "project_short_description": "Proposition de réhabilitation de l’Église Saint-Honorât en bar à vins et espace d’exposition de photographies, dans le cadre des Rencontres d’Arles.",
     "intentions": [
-      "Redévelopper l’artisanat dans la ville d’Arles, en liant histoire et modernité. Agir dans la continuité de la ville, de ses vestiges et des rencontres d’Arles. S’inspirer de la ville pour créer un projet en lien avec son environnement. Présenter un projet autour de la typologie du bâtiment, afin de respecter et mettre en lumière son histoire."
+      "‘La crypte’ est une proposition de réhabilitation de l’Église Saint-Honorât en bar à vins et en espace d’exposition de photographies, dans le cadre du festival de photographie «Les Rencontres d’Arles». Ce projet se base sur le développement de l’artisanat dans la ville d’Arles, afin de lier histoire et modernité. Le Collectif Local, créé pour l’occasion, agit dans la continuité de la ville, de ses vestiges et des rencontres d’Arles.",
+      "Chaque année, des expositions sont présentées dans une vingtaine de lieux patrimoniaux de la ville, et font l’objet d’une scénographie unique. Le Collectif Local intervient dans cette continuité, mêlant les espaces de dégustation aux espaces d’exposition au sein de l’église. Il place au coeur du projet un matériau fabriqué autrefois sur place, le verre noir, afin de relancer et soutenir ce savoir faire disparu. En combinant l’ancestral et l’innovant il s’attache à développer une nouvelle manière de construire, plus respectueuse de l’homme et de l’environnement. Il s’inspire de la ville pour créer un projet en lien avec son contexte, et s’appuie sur la typologie du bâtiment afin de respecter et mettre en lumière son histoire.",
+      "Le projet ‘La crypte’ prend ainsi vie par une intervention légère. Réalisé avec des matériaux naturels, il structure l’espace en s’entremêlant avec le cadre bâti. Il s’inspire de l’architecture des églises et s’attache à retranscrire le lexique religieux en architecture. Ainsi, le concept du bien et du mal se traduit dans le bâti par le léger et le lourd. Les deux éléments principaux du lieu, la coupole et la crypte - le bien et le mal - sont liés l’un à l’autre par le vide et la lumière, soulignant ainsi la spiritualité et la grandeur du lieu."
     ],
+    "pictures_before": [],
     "carousels": [
       {
         "pictures": [
@@ -171,26 +174,32 @@
     "pictures": []
   },
   {
-    "project_folder": "daumesnil",
+    "project_folder": "/daumesnil",
     "project_name": "daumesnil",
     "project_subcaption": "paris, france",
-    "project_picture": "cadastre.png",
-    "project_occasion": "projet de rénovation - en cours de construction.",
+    "project_picture_square": "cadastre.png",
+    "project_picture": "cadastre.jpg",
+    "project_occasion": "projet de rénovation - en cours",
     "project_award": "",
-    "project_short_description": "Rénovation d’un appartement parisien, surface 30,21 m2.",
-    "intentions": [],
+    "intentions": [
+      "Rénovation d’un appartement parisien, surface 30,21\u00A0m²."
+    ],
+    "pictures_before": [],
     "carousels": [],
     "pictures": []
   },
   {
-    "project_folder": "egly",
+    "project_folder": "/egly",
     "project_name": "ruelle",
     "project_subcaption": "egly, france",
-    "project_picture": "cadastre.png",
-    "project_occasion": "projet de rénovation - en cours de construction",
+    "project_picture_square": "cadastre.png",
+    "project_picture": "cadastre.jpg",
+    "project_occasion": "projet de rénovation - en cours",
     "project_award": "",
-    "project_short_description": "Rénovation d’une maison familiale et aménagement des combles, surface 175,96 m2.",
-    "intentions": [],
+    "intentions": [
+      "Rénovation d’une maison familiale et aménagement des combles, surface 175,96\u00A0m²."
+    ],
+    "pictures_before": [],
     "carousels": [],
     "pictures": []
   }

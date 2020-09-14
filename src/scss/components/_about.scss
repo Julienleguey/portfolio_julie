@@ -1,0 +1,44 @@
+@import "../variables";
+
+#limited-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 $u3 $u6 $u3;
+  max-width: 500px;
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    max-width: 832px;
+    flex-direction: row;
+    padding: 0 $u4;
+    margin-bottom: auto;
+  }
+}
+
+#limited-first {
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: $u3;
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    min-width: 40%;
+    max-width: 40%;
+    margin-bottom: 0;
+    padding-right: $u5;
+  }
+}
+
+#limited-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    width: 60%;
+  }
+
+  &.contact {
+    width: 100%;
+  }
+}

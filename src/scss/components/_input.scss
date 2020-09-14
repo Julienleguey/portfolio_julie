@@ -2,34 +2,30 @@
 
 input {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 12px;
   height: 24px;
   border-style: solid;
   border-width: $border-w-sm;
-  // border-color: $border-color;
   border-color: transparent;
   outline: none;
 
   &:focus {
-    // border-color: $primary;
     border-color: transparent;
   }
 }
 
 textarea {
   font-family: inherit;
-  font-size: inherit;
-  height: 300px;
+  font-size: 12px;
+  height: 23vh;
   border-style: solid;
   border-width: $border-w-sm;
-  // border-color: $border-color;
   border-color: transparent;
   box-sizing: border-box;
   outline: none;
   resize: none;
 
   &:focus {
-    // border-color: $primary;
     border-color: transparent;
   }
 }

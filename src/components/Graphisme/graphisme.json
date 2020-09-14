@@ -1,13 +1,17 @@
 [
   {
-    "project_folder": "la_crypte",
+    "project_folder": "/la_crypte",
     "project_name": "la crypte",
     "project_subcaption": "identité visuelle",
+    "project_picture_square": "LACRYPTELOGO3D02_square.jpg",
     "project_picture": "LACRYPTELOGO3D02.jpg",
     "project_occasion": "projet de diplôme - juin 2020",
     "project_award": "",
-    "project_short_description": "Proposition de réhabilitation de l’Église Saint-Honorât en bar à vins et espace d’exposition de photographies, dans le cadre des Rencontres d’Arles.",
-    "intentions": ["blobloblo"],
+    "intentions": [
+      "‘La crypte’ est une proposition de réhabilitation de l’Église Saint-Honorât en bar à vins et en espace d’exposition de photographies, dans le cadre du festival de photographie «Les Rencontres d’Arles».",
+      "Chaque année, des expositions sont présentées dans une vingtaine de lieux patrimoniaux de la ville, et font l’objet d’une scénographie unique. Le projet ‘La crypte’ prend vie dans l’Église Saint-Honorât par une intervention légère. Réalisé avec des matériaux naturels, il structure l’espace en s’entremêlant avec le cadre bâti. Basé sur le développement de l’artisanat dans la ville d’Arles, ce projet lie histoire et modernité. Il se dessine autour d’un matériau fabriqué autrefois sur place, le verre noir, afin de relancer et soutenir ce savoir faire disparu. "
+    ],
+    "pictures_before": ["LOGOLACRYPTE.jpg", "LACRYPTELOGO3D01.jpg"],
     "carousels": [
       {
         "name": "papeterie",
@@ -41,17 +45,21 @@
         ]
       }
     ],
-    "pictures": ["LOGOLACRYPTE.jpg", "LACRYPTELOGO3D01.jpg"]
+    "pictures": []
   },
   {
-    "project_folder": "collectif_local",
+    "project_folder": "/collectif_local",
     "project_name": "collectif local",
     "project_subcaption": "identité visuelle",
+    "project_picture_square": "boiteallumettes_square.jpg",
     "project_picture": "boiteallumettes.jpg",
     "project_occasion": "projet de diplôme - juin 2020",
-    "project_award": "prix 'esthétique et expression'",
-    "project_short_description": "Création d’un collectif autour du savoir faire artisanal et des matériaux, pour une nouvelle façon de construire, plus respectueuse de l’homme et de l’environnement.",
-    "intentions": ["blobloblo"],
+    "project_award": "",
+    "intentions": [
+      "Création d’un collectif autour du savoir faire artisanal et des matériaux naturels. En combinant l’ancestral et l’innovant, il propose une nouvelle façon de construire, plus respectueuse de l’homme et de l’environnement.",
+      "Le Collectif Local a recours à des matériaux naturels trouvés sur place lors de ses interventions. Favoriser un circuit court dans le domaine de la construction lui permet d’avoir à la fois un impact positif sur l’économie et l’environnement. Cela permet également de renouer avec le savoir-faire traditionnel et ancestral de certaines professions. Il s’inspire de la ville pour créer un projet en lien avec son contexte, et s’appuie sur la typologie du bâtiment dans lequel il intervient afin de respecter et mettre en lumière son histoire."
+    ],
+    "pictures_before": [],
     "carousels": [],
     "pictures": [
       "LOGOCOLLECTIF.jpg",
@@ -60,14 +68,19 @@
     ]
   },
   {
-    "project_folder": "triptyque",
+    "project_folder": "/triptyque",
     "project_name": "triptyque",
     "project_subcaption": "identité visuelle",
+    "project_picture_square": "MODULESIGNE.jpg",
     "project_picture": "MODULESIGNE.jpg",
     "project_occasion": "projet de diplôme - juin 2020",
-    "project_award": "prix 'esthétique et expression'",
-    "project_short_description": "Création d’une assise contemplative et de son identité visuelle",
-    "intentions": ["blobloblo"],
+    "project_award": "",
+    "intentions": [
+      "L’identité visuelle de l’assise Triptyque suit la poésie de l’objet. La relation entre forme, usage et espace est explorée. Les recherches s’effectuent autour d’observations et d’expériences personnelles, influencées par des thèmes tels que l’inconscient, la sensualité, la féminité et le désir.",
+      "L’univers graphique se compose de formes rondes et chaleureuses. La douceur de l’objet se traduit par un papier translucide, des formes simples et singulières, ce qui vient appuyer une volonté de légèreté. Dans la continuité du thème de la scénographique et du musée, la construction du logo et des produits dérivés s’inspire des affiches d’exposition de Matisse.",
+      "Ne pas utiliser de couleurs autres que le noir et le blanc est un rappel au matériau brut qui compose l’assise, qui a pour principe de ne pas altérer la vision de l’utilisateur sur les formes des modules."
+    ],
+    "pictures_before": ["TRIPTYQUELOGO.jpg"],
     "carousels": [
       {
         "name": "papeterie",
@@ -92,6 +105,26 @@
         ]
       }
     ],
-    "pictures": ["TRIPTYQUELOGO.jpg"]
+    "pictures": []
+  },
+  {
+    "project_folder": "/le_voile_de_beton",
+    "project_name": "le voile de béton",
+    "project_subcaption": "rédaction - impression",
+    "project_picture_square": "IMG_3711_square.jpg",
+    "project_picture": "IMG_3711.jpg",
+    "project_occasion": "Mémoire - juin 2020",
+    "project_award": "",
+    "intentions": [
+      "Rédaction et impression du mémoire: Le voile de béton, l’art d’allier un matériau lourd à un geste architectural léger."
+    ],
+    "pictures_before": [],
+    "carousels": [],
+    "pictures": [
+      "IMG_37366.jpg",
+      "IMG_37522.jpg",
+      "IMG_3777.jpg",
+      "IMG_38255.jpg"
+    ]
   }
 ]

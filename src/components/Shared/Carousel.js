@@ -55,7 +55,7 @@ const Carousel = ({ carousel, folder, carouselNbr, projectsCategory }) => {
       >
         <div className="w-100 h-100 pos-relative">
           <img
-            src={require(`../../images/${projectsCategory}/${folder}/${
+            src={require(`../../images/${projectsCategory}${folder}/${
               carouselHasName ? picture : picture.file
             }`)}
             alt={picture.name}
@@ -63,8 +63,13 @@ const Carousel = ({ carousel, folder, carouselNbr, projectsCategory }) => {
           />
         </div>
         {!carouselHasName && (
-          <div className="py-2">
-            <p className="text-center">{picture.name}</p>
+          <div className="py-3">
+            <p
+              className="text-center font-size-xs"
+              style={{ textTransform: "uppercase", letterSpacing: "2px" }}
+            >
+              {picture.name}
+            </p>
           </div>
         )}
       </div>
@@ -72,13 +77,13 @@ const Carousel = ({ carousel, folder, carouselNbr, projectsCategory }) => {
   }
 
   return (
-    <div className="d-flex f-col pos-relative mb-5">
+    <div className="d-flex f-col pos-relative mb-0">
       {carousel && (
         <div className="pictures-container">
           <div style={{ zIndex: -1, opacity: 0 }}>
             <div className="w-100">
               <img
-                src={require(`../../images/${projectsCategory}/${folder}/${
+                src={require(`../../images/${projectsCategory}${folder}/${
                   carouselHasName
                     ? carousel.pictures[0]
                     : carousel.pictures[0].file
@@ -88,8 +93,13 @@ const Carousel = ({ carousel, folder, carouselNbr, projectsCategory }) => {
               />
             </div>
             {!carouselHasName && (
-              <div className="py-2">
-                <p className="text-center">{carousel.pictures[0].name}</p>
+              <div className="py-3">
+                <p
+                  className="text-center font-size-xs"
+                  style={{ textTransform: "uppercase", letterSpacing: "2px" }}
+                >
+                  {carousel.pictures[0].name}
+                </p>
               </div>
             )}
           </div>
@@ -98,8 +108,13 @@ const Carousel = ({ carousel, folder, carouselNbr, projectsCategory }) => {
       )}
 
       {carouselHasName && (
-        <div className="py-2">
-          <p className="text-center">{carousel.name}</p>
+        <div className="py-3">
+          <p
+            className="text-center font-size-xs"
+            style={{ textTransform: "uppercase", letterSpacing: "2px" }}
+          >
+            {carousel.name}
+          </p>
         </div>
       )}
 
@@ -108,22 +123,14 @@ const Carousel = ({ carousel, folder, carouselNbr, projectsCategory }) => {
         onClick={() => changeCard("right")}
         disabled={sliding}
       >
-        <img
-          src={backArrow}
-          alt="flèche arrière"
-          className="w-100 h-100 pos-b-0"
-        />
+        <img src={backArrow} alt="flèche arrière" className="w-3 h-3 pos-b-0" />
       </button>
       <button
         className="carousel-btn forward"
         onClick={() => changeCard("left")}
         disabled={sliding}
       >
-        <img
-          src={nextArrow}
-          alt="flèche avant"
-          className="w-100 h-100 pos-b-0"
-        />
+        <img src={nextArrow} alt="flèche avant" className="w-3 h-3 pos-b-0" />
       </button>
     </div>
   );

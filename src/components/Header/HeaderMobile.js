@@ -13,11 +13,7 @@ const HeaderMobile = () => {
   }
 
   return (
-    <div
-      className={classnames(
-        "w-100 d-flex pos-relative bg-lighter pt-0 pt-md-10"
-      )}
-    >
+    <div className={classnames("w-100 d-flex pos-relative bg-lighter pt-0")}>
       <div className="flex-1 py-5 px-4 d-flex jc-sb">
         <h5 className="letter-spacing-title">JULIE HARMEGNIES</h5>
         <div
@@ -34,10 +30,26 @@ const HeaderMobile = () => {
           <div style={{ marginTop: "15vh" }} className="d-flex f-col">
             <Link
               to="/"
-              className="font-weight-bolder letter-spacing-title ml-auto pb-4"
+              className="font-weight-bolder letter-spacing-title ml-auto pb-4 font-size-xs"
               onClick={closeModals}
             >
               accueil
+            </Link>
+
+            <Link
+              to="/about"
+              className="font-weight-bolder letter-spacing-title ml-auto pb-4 font-size-xs"
+              onClick={closeModals}
+            >
+              à propos
+            </Link>
+
+            <Link
+              to="/contact"
+              className="font-weight-bolder letter-spacing-title ml-auto pb-4 font-size-xs"
+              onClick={closeModals}
+            >
+              contact
             </Link>
 
             <div className="d-flex f-col pb-4">
@@ -47,7 +59,7 @@ const HeaderMobile = () => {
                   "ml-auto projects-btn",
                   projectsOpen && "open"
                 )}
-                textClassName="font-weight-bolder letter-spacing-title"
+                textClassName="font-weight-bolder letter-spacing-title font-size-xs"
                 onClick={() => setProjectsOpen(!projectsOpen)}
               >
                 projets
@@ -88,20 +100,6 @@ const HeaderMobile = () => {
                 </Link>
               </div>
             </div>
-            <Link
-              to="/about"
-              className="font-weight-bolder letter-spacing-title ml-auto pb-4"
-              onClick={closeModals}
-            >
-              à propos
-            </Link>
-            <Link
-              to="/contact"
-              className="font-weight-bolder letter-spacing-title ml-auto pb-4"
-              onClick={closeModals}
-            >
-              contact
-            </Link>
           </div>
         </div>
       </div>

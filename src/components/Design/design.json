@@ -1,13 +1,18 @@
 [
   {
-    "project_folder": "nestor",
+    "project_folder": "/nestor",
     "project_name": "nestor",
     "project_subcaption": "luminaire",
+    "project_picture_square": "NESTOR04_square.jpg",
     "project_picture": "NESTOR04.jpg",
-    "project_occasion": "concours gil luminaires - juin 2018",
+    "project_occasion": "concours gil luminaires",
     "project_award": "prix 'esthétique et expression'",
-    "project_short_description": "",
-    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "intentions": [
+      "Nestor est né de la fusion de deux principes. Le premier, créer un luminaire qui soit un compagnon de vie, en lui donnant un côté touchant et ludique. Le second, travailler sur un visuel graphique et un côté tactile pour permettre à l’utilisateur de faire connaissance avec.",
+      "Une forme organique est née, symbolisant le squelette de la lampe. Dans celle-ci est enfermée une source lumineuse, ce qui rappelle l’oeil d’un cyclope. La structure en verre, symbole de fragilité, contraste avec le caractère souple et malléable du silicone, qui lui invite à interagir avec. En jouant avec l’oeil, l’intensité de la lumière varie; elle peut être directe, ou filtrée. Une fois la source lumineuse éteinte, le silicone, gorgé de pigments phosphorescents, disparaît doucement dans le noir.",
+      "Un aspect scénographique se révèle lorsque l’on place des objets en son sein, sous sa protection. Une histoire se crée, et chaque personne peut se l’approprier. À la frontière entre sculpture et design, cette lampe se révèle par son aspect poétique."
+    ],
+    "pictures_before": [],
     "carousels": [],
     "pictures": [
       "NESTOR05.jpg",
@@ -20,14 +25,18 @@
     ]
   },
   {
-    "project_folder": "triptyque",
+    "project_folder": "/triptyque",
     "project_name": "triptyque",
     "project_subcaption": "assise contemplative",
+    "project_picture_square": "DETAIL2_square.jpg",
     "project_picture": "DETAIL2.jpg",
     "project_occasion": "projet de diplôme - juin 2020",
     "project_award": "",
-    "project_short_description": "",
-    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "intentions": [
+      "L’assise contemplative crée un instant, elle nous accompagne et nous plonge dans un moment unique hors du temps. Un instant visuel, l’analyse d’un tableau, d’un son. Un musée se visite de deux façons, seul ou à plusieurs. L’assise, composée de trois modules uniques, permet à l’utilisateur de se plonger seul dans une oeuvre, ou de partager son expérience. Les modules, dont la forme dépend les uns des autres, forment un monolithe une fois réunis. Ce bloc de pierre massif est duplicable et juxtaposable à l’infini. Cela confère à l’objet une dimension scénographique. Il intervient dans l’espace en s’entremêlant avec le cadre bâti, tout en le structurant. L’objet disparaît dès lors que l’on s’assoit dessus, un cours instant, avant de poursuivre son chemin.",
+      "L’utilisation de la pierre, un matériau brut, permet à l’oeil de se concentrer les courbes de chacun des modules. Un travail de la forme unique et de la contre-forme s’applique. Triptyque est né de la volonté de travailler la pierre, et plus précisément la pierre tendre. De là, ce projet a évolué autour de l’envie de détourner le visuel primaire d’un matériau froid et dur, afin de lui apporter un aspect tendre et chaleureux. Guidé par des recherches autour de la forme, il questionne la relation au corps."
+    ],
+    "pictures_before": [],
     "carousels": [
       {
         "name": "Module 1",
@@ -64,20 +73,21 @@
       "VUEFACE.jpg",
       "RENDU01.jpg",
       "RENDU03.jpg",
-      "RENDU06.jpg",
-      "TRICROQUIS01.jpg",
-      "TRICROQUIS02.jpg"
+      "RENDU06.jpg"
     ]
   },
   {
-    "project_folder": "idylle",
+    "project_folder": "/idylle",
     "project_name": "idylle",
     "project_subcaption": "vase",
+    "project_picture_square": "IMG30371_square.jpg",
     "project_picture": "IMG30371.jpg",
     "project_occasion": "projet étudiant - mai 2017",
     "project_award": "",
-    "project_short_description": "",
-    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "intentions": [
+      "Le constructivisme se concentre sur la composition géométrique rigoureuse et est par conséquent non figuratif. Le caractère de cet art repose sur le fait de créer une composition au moyen d’éléments géométriques simples. Idylle est un projet né de recherches en dessins, reprenant les codes du constructivisme. Deux rectangles aux proportions différentes. L’un droit, pilier de la structure, l’autre penché, traversant le premier. Il questionne la simplicité. L’objet se construit par un simple emboitement. Simple dans sa manière de s’assembler, visuellement, le vase s’efface pour mettre en avant son contenu, et s’amuse à le présenter par différents jeux d’opacité. Le fait de réaliser un bloc en verre givré et un en verre translucide permet une hiérarchisation au sein de l’objet, et présente ainsi les différentes manières de disposer le contenu."
+    ],
+    "pictures_before": [],
     "carousels": [],
     "pictures": [
       "IMG30451.jpg",
@@ -90,22 +100,25 @@
     ]
   },
   {
-    "project_folder": "email",
+    "project_folder": "/email",
     "project_name": "email",
     "project_subcaption": "vase",
+    "project_picture_square": "VASE01_square.jpg",
     "project_picture": "VASE01.jpg",
     "project_occasion": "projet étudiant - mars 2019",
     "project_award": "en collaboration avec la maison de l’email",
-    "project_short_description": "",
-    "intentions": ["paragraph 1 text blabla", "paragraph 2 text bloblo"],
+    "intentions": [
+      "Réalisé dans les ateliers de la Maison de l’Email à Morez, ce vase conceptuel est né de l’expérimentation d’un matériau quelque peu oublié de nos jours, l’email. Le travail de la découpe et du pliage du métal, a permis d’accompagner les volontés de ce matériau, et de lui donner vie.",
+      "Les recherches ont été menées autour du disque d’eau. En utilisant diverses techniques, notamment par l’utilisation de la fritte, l’idée fût de reproduire les ondulations de l’eau, afin de faire flotter la fleur en son sein. Ainsi, par son dessin et sa fonction, l’objet détourne la fonction primaire du vase. Le contenu, l’eau, devient le contenant, le vase."
+    ],
+    "pictures_before": [],
     "carousels": [],
     "pictures": [
       "IMG64311.jpg",
       "IMG64321.jpg",
       "VASE01DETAIL.jpg",
       "VASE04.jpg",
-      "VASE03.jpg",
-      "VASE02.jpg",
+      "VASE042.jpg",
       "CROQUIS04.jpg",
       "CROQUIS02.jpg",
       "CROQUIS07.jpg",

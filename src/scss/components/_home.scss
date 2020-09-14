@@ -1,6 +1,23 @@
-.home-img {
-  background-image: url("../../images/home.jpg");
-  background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+#home-small {
+  display: flex;
+  flex: 1;
+  width: 100%;
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    display: none;
+    img {
+      max-height: 0;
+    }
+  }
+}
+
+#home-img-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: $u3;
+
+  @media (min-width: map-get($breakpoints, "lg")) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

@@ -53,10 +53,15 @@
 
 .carousel-btn {
   position: absolute;
-  bottom: 11px;
-  width: 1.5rem;
-  height: 1rem;
-  background-color: $white;
+  bottom: 0px;
+  width: 3.5rem;
+  height: 45px;
+  background-color: $lighter;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
 
   &.back {
     left: 0;

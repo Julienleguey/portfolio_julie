@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import collages from "./collage.json";
-import CollageModal from "./CollageModal";
+// import CollageModal from "./CollageModal";
+import ProjectModal from "../Projects/ProjectModal";
 
 const Collage = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -21,27 +22,28 @@ const Collage = () => {
 
   function displayPictures() {
     return collages.map((collage, index) => (
-      <div className="px-3 pb-4" key={index}>
-        <div
-          className="collage-container"
-          onClick={() => openCollageModal(collage)}
-        >
+      <div
+        className="project-card"
+        key={index}
+        onClick={() => openCollageModal(collage)}
+      >
+        <div className="center-image-container">
           <img
-            src={require(`../../images/collages/${collage.file}`)}
+            src={require(`../../images/collages/${collage.project_picture}`)}
             alt={collage.name}
-            className="collage-picture"
+            className="center-image"
           />
         </div>
-        <div>
+        <div className="project-card-name-container">
           <p
-            className="font-weight-bolder font-size-sm"
-            style={{ textTransform: "uppercase" }}
+            style={{ textTransform: "uppercase", letterSpacing: "2px" }}
+            className="font-weight-bolder font-size-sm mt-auto"
           >
-            {collage.name}
+            {collage.project_name}
           </p>
           <p
+            style={{ textTransform: "uppercase", letterSpacing: "2px" }}
             className="font-weight-bolder font-size-sm"
-            style={{ textTransform: "uppercase" }}
           >
             {frenchDate(collage.date)}
           </p>
@@ -50,13 +52,19 @@ const Collage = () => {
     ));
   }
   return (
-    <div className="d-flex f-col w-100 bg-lighter flex-1">
+    <div className="px-3 project-list">
       {displayPictures()}
-      <CollageModal
+      {/*<CollageModal
         open={openModal}
         close={() => setOpenModal(false)}
         collage={collageInModal}
         frenchDate={frenchDate}
+      />*/}
+      <ProjectModal
+        open={openModal}
+        close={() => setOpenModal(false)}
+        project={collageInModal}
+        projectsCategory="collages"
       />
     </div>
   );
